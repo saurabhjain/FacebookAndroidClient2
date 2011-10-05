@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello, This demos Facebook integration with an Android Activity. Make use of menu to post to your Facebook wall!</string>
+    <string name="app_name">Facebook Android Integration</string>
+    <string name="fblogin">Login to facebook</string>
+</resources>
