@@ -69,6 +69,11 @@ public class ShareOnFacebook extends Activity{
 		 */
 		Bundle parameters = new Bundle();
     	parameters.putString("message", messageToPost);
+    	parameters.putString("name", "Saurabh");
+    	parameters.putString("caption", "TestCaption");
+    	parameters.putString("link", "https://www.facebook.com/saurabhjain.net");
+    	parameters.putString("description", "This is test description.");
+        parameters.putString("picture", "http://twitpic.com/show/thumb/6hqd44");
     	facebook.dialog(this, "stream.publish", parameters, new WallPostDialogListener());
 	}
 
